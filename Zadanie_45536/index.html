@@ -8,19 +8,19 @@
 </head>
 <body>
     <form action="https://formspree.io/f/xlekayqw" method="POST">
-        <label>Imię<input type="text" name="firstName"></label><br>
-        <label>Nazwisko<input type="text" name="lastName"></label><br>
-        <label>Email<input type="email" name="email"></label><br>
-        <label>Nr telefonu<input type="number" name="phoneNumber"></label><br>
-        <select name="city" id="">
+        <label>Imię<input type="text" name="firstName" id="firstName"></label><br>
+        <label>Nazwisko<input type="text" name="lastName" id="lastName"></label><br>
+        <label>Email<input type="email" name="email" id="email"></label><br>
+        <label>Nr telefonu<input type="number" name="phoneNumber" id="phoneNumber"></label><br>
+        <select name="city" id="city">
             <option value="Kraków">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdańsk">Gdańsk</option>
         </select> <br>
-        <label><input type="radio" name="sex" id="">Mężczyzna</label>
-        <label><input type="radio" name="sex" id="">Kobieta</label><br>
+        <label><input type="radio" name="sex" id="male">Mężczyzna</label>
+        <label><input type="radio" name="sex" id="female">Kobieta</label><br>
         <label><input type="checkbox" name="approve">Zgoda na przetwarzanie danych osobowych</label><br>
-        <textarea name="message">Wiadomość</textarea><br>
+        <textarea name="message" id="message">Wiadomość</textarea><br>
         <input type="submit" value="Wyślij formularz">
     </form>
 </body>
