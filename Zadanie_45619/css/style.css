@@ -1,0 +1,92 @@
+.header {
+    background-color: red;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+.item {
+    font-size: 2em;
+    color: white;
+    height: 350px;
+    text-align: center;
+}
+
+.main {
+    background-color: aqua;
+    flex-grow: 4;
+}
+
+.aside-left {
+    background-color: green;
+    flex-grow: 1;
+    width: 100%;
+    
+}
+
+.aside-right {
+    background-color: pink;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: purple;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 0%;
+}
+
+@media screen and (min-width: 992px) {
+    aside-left{
+        flex-basis: 25%;
+    }
+    main {
+        flex-basis: 50%;
+    }
+    aside-right{
+        flex-basis: 25%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    main {
+        flex-basis: 75%;
+        order: 1;
+    }
+    aside-right {
+        flex-basis: 25%;
+        order: 2;
+    }
+    aside-left {
+        flex-basis: 100%;
+        order: 3;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-basis: 100%;
+        order: 1;
+    }
+    aside-left {
+        flex-basis: 100%;
+        order: 2;
+    }
+    aside-right {
+        flex-basis: 100%;
+        order: 3;
+    }
+}
