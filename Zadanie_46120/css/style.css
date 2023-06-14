@@ -1,0 +1,11 @@
+hr {
+    width: 30%;
+    margin: auto;
+    /* align-items: center; */
+}
+
+.fa-brands {
+    font-size: 6em;
+    color: orange;
+    padding-bottom: 50px;
+}
