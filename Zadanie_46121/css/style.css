@@ -1,0 +1,11 @@
+hr {
+    width: 30%;
+}
+
+.accordion-body {
+    text-align: center;
+}
+
+.accordion-button:hover {
+    text-decoration: underline;
+}
