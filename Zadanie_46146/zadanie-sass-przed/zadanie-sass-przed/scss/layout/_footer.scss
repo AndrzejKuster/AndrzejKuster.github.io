@@ -18,7 +18,8 @@
 		.footer-col {
 			margin-bottom: $baseline * 3;
 
-			.contact, .tweets {
+			.contact,
+			.tweets {
 				padding-left: $padding-none;
 
 				p {
@@ -33,7 +34,7 @@
 				}
 
 				a:hover {
-					
+
 					p {
 						margin: $margin-none;
 						color: $color-primary;
@@ -67,7 +68,20 @@
 		}
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	.footer-below {
+		.list-inline {
+			.fa-fw {
+				font-size: 25px;
+			}
+		}
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		color: $color-text-light;
 	}
 
